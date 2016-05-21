@@ -24,7 +24,7 @@ public class StartServer {
 		//设置服务器处理程序
 		acceptor.setHandler(new ServerHandler());
 		//指定服务器端口
-		int port = 10000;
+		int port = 10001;
 		//绑定端口
 		acceptor.bind(new InetSocketAddress(port));
 		System.out.println("服务器启动了,监听端口:"+port+" .............");
