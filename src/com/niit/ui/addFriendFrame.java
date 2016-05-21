@@ -105,7 +105,7 @@ public class addFriendFrame extends JFrame implements ActionListener{
 		//城市
 		JLabel citylabel = new JLabel("\u57CE\u5E02");
 		citylabel.setForeground(Color.RED);
-		citylabel.setFont(new Font("仿宋", Font.BOLD, 14));
+		citylabel.setFont(new Font("华文楷体", Font.BOLD, 14));
 		citylabel.setHorizontalAlignment(SwingConstants.CENTER);
 		citylabel.setBounds(40, 173, 54, 22);
 		contentPane.add(citylabel);
