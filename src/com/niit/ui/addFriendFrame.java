@@ -147,7 +147,7 @@ public class addFriendFrame extends JFrame implements ActionListener{
 		
 		//添加好友
 		addbutton = new JButton("\u6DFB\u52A0\u597D\u53CB");
-		addbutton.setFont(new Font("华文楷体", Font.BOLD, 12));
+		addbutton.setFont(new Font("仿宋", Font.BOLD, 12));
 		addbutton.setBounds(122, 220, 92, 25);
 		contentPane.add(addbutton);
 		//给添加好添加事件
